@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Luxe Years Co. | The Aussie lifestyle month, done for you</title>
+<meta property="og:title" content="Luxe Years Co. | The Aussie lifestyle month, done for you"><meta property="og:description" content="A beautifully organised, large-print activity pack for aged-care homes. Made in Melbourne."><meta property="og:image" content="https://luxeyearsco.com/images/og-image.png"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://luxeyearsco.com/images/og-image.png">
+<meta name="description" content="A large-print activity pack for aged care: an index, a Your Week plan, five colour tabs, three levels, record sheets and TV slides. Made in Melbourne.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
+<style>
+:root{--purple:#8A2BFF;--purple-d:#6A12D6;--mint:#00C98D;--orange:#FF8A00;--yellow:#FFD500;--pink:#FF3D9A;--sky:#12B8FF;
+--t-purple:#F2E8FF;--t-mint:#D9F8EC;--t-orange:#FFEBD2;--t-yellow:#FFF6BF;--t-pink:#FFE0EE;--t-sky:#D9F2FF;
+--ink:#1B1233;--body:#3B3552;--line:#ECE6F5;--bg:#fff;--soft:#FAF7FF}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--body);background:var(--bg);line-height:1.65;font-size:17px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}a{color:inherit}
+.wrap{max-width:1140px;margin:0 auto;padding:0 24px}
+.script{font-family:Satisfy,"Brush Script MT",cursive;font-weight:400;color:var(--ink);line-height:1.1}
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:74px;gap:16px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;white-space:nowrap}
+.brand img{height:46px;width:auto}.brand span{font-size:30px}
+.links{display:flex;align-items:center;gap:28px}.links a{text-decoration:none;font-weight:500;font-size:15px;color:var(--ink)}
+.links a:hover{color:var(--purple)}
+.btn{display:inline-block;background:var(--purple);color:#fff!important;font-weight:600;text-decoration:none;padding:13px 26px;border-radius:999px;font-size:16px;transition:.15s;border:2px solid var(--purple)}
+.btn:hover{background:var(--purple-d);border-color:var(--purple-d);transform:translateY(-1px)}
+.btn.o{background:#fff;color:var(--purple)!important}.btn.o:hover{background:var(--t-purple)}
+.btn.s{padding:10px 20px;font-size:15px}
+/* hero */
+.hero{padding:64px 0 72px;overflow:hidden}
+.hg{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+.eyebrow{display:inline-block;background:var(--t-purple);color:var(--purple-d);font-weight:600;font-size:14px;padding:6px 14px;border-radius:999px;margin-bottom:22px}
+h1.script{font-size:clamp(46px,6.2vw,76px);margin-bottom:22px}
+.lead{font-size:19px;max-width:540px;margin-bottom:30px}
+.cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:22px}
+.note{font-size:15px;display:flex;align-items:center;gap:10px;font-weight:500;color:var(--ink)}
+.note i{width:12px;height:12px;border-radius:50%;background:var(--yellow);display:inline-block}
+.art{position:relative;display:flex;justify-content:center}
+.art:before{content:"";position:absolute;width:86%;aspect-ratio:1;border-radius:50%;background:var(--t-purple);top:50%;left:50%;transform:translate(-50%,-50%)}
+.art .d{position:absolute;border-radius:50%}
+.art img{position:relative;width:min(480px,100%);height:auto}
+/* sections */
+section{padding:84px 0}.soft{background:var(--soft)}
+.sh{text-align:center;max-width:700px;margin:0 auto 48px}
+.sh .script{font-size:clamp(36px,4.4vw,52px);margin-bottom:12px}
+.sh p{font-size:18px}
+.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0}
+.strip .wrap{display:flex;justify-content:center;flex-wrap:wrap;gap:12px 30px}
+.strip span{display:flex;align-items:center;gap:9px;font-weight:600;font-size:15px;color:var(--ink)}
+.strip b{width:13px;height:13px;border-radius:50%;display:inline-block}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{background:#fff;border:1px solid var(--line);border-radius:22px;padding:30px;transition:.2s}
+.card:hover{box-shadow:0 14px 34px rgba(138,43,255,.10);transform:translateY(-3px)}
+.ic{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;margin-bottom:18px}
+.ic svg{width:28px;height:28px;stroke:var(--ink);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.card h3{font-size:19px;color:var(--ink);margin-bottom:8px;font-weight:700}.card p{font-size:16px}
+.tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+.tab{border-radius:20px;padding:24px 20px;border-top:7px solid}
+.tab h3{font-size:17px;color:var(--ink);margin-bottom:6px;font-weight:700;line-height:1.3}.tab p{font-size:15px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.step{text-align:center;padding:0 10px}
+.num{width:60px;height:60px;border-radius:50%;background:var(--purple);color:#fff;display:grid;place-items:center;margin:0 auto 18px;font-weight:700;font-size:24px}
+.step h3{color:var(--ink);font-size:20px;margin-bottom:8px}
+/* pricing */
+.pg{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;max-width:680px;margin:0 auto}
+.price{background:#fff;border:2px solid var(--line);border-radius:24px;padding:34px 28px;text-align:center}
+.price.f{border-color:var(--purple);box-shadow:0 18px 40px rgba(138,43,255,.14);position:relative}
+.price .tag{position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--orange);color:#fff;font-weight:700;font-size:13px;padding:5px 14px;border-radius:999px;white-space:nowrap}
+.price h3{color:var(--ink);font-size:18px;margin-bottom:10px}
+.amt{font-size:46px;font-weight:700;color:var(--ink);line-height:1.1}.amt small{font-size:16px;font-weight:500;color:var(--body)}
+.price p{font-size:15px;margin-top:10px}
+.free{background:var(--yellow);border-radius:28px;padding:44px 32px;text-align:center;margin-top:44px;color:var(--ink)}
+.free .script{font-size:clamp(34px,4.2vw,48px);margin-bottom:8px}.free p{font-size:18px;max-width:600px;margin:0 auto 22px}
+.free .btn{background:var(--ink);border-color:var(--ink)}
+.quote{text-align:center;max-width:760px;margin:0 auto}
+.quote .script{font-size:clamp(30px,3.6vw,42px);margin-bottom:14px}
+/* faq */
+.faq{max-width:780px;margin:0 auto}
+details{border:1px solid var(--line);border-radius:18px;padding:20px 24px;margin-bottom:12px;background:#fff}
+summary{cursor:pointer;font-weight:600;color:var(--ink);font-size:17px;list-style:none;display:flex;justify-content:space-between;gap:14px}
+summary::-webkit-details-marker{display:none}summary:after{content:"+";color:var(--purple);font-size:24px;line-height:1}
+details[open] summary:after{content:"\2212"}details p{margin-top:12px;font-size:16px}
+footer{background:var(--ink);color:#d8d0ec;padding:56px 0 36px;font-size:15px}
+.fg{display:flex;justify-content:space-between;gap:28px;flex-wrap:wrap;align-items:flex-start}
+footer .script{color:#fff;font-size:34px}footer a{color:#fff}
+.bar{display:flex;height:6px;margin-bottom:0}.bar i{flex:1}
+.frm{max-width:560px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:24px;padding:32px;display:grid;gap:16px}
+.frm label{display:grid;gap:6px;font-weight:600;color:var(--ink);font-size:15px}
+.frm input{font:inherit;padding:13px 16px;border:2px solid var(--line);border-radius:14px;color:var(--ink)}
+.frm input:focus{outline:none;border-color:var(--purple)}.frm .help{font-size:14px}.frm .btn{cursor:pointer;font-family:inherit}
+.ok{background:var(--t-mint);color:var(--ink);padding:14px 18px;border-radius:14px;font-weight:500}
+.tab{overflow:hidden}.ti{height:auto;width:calc(100% + 40px);margin:-24px -20px 16px;max-width:none;aspect-ratio:4/3;object-fit:cover}
+.qs{background:#fff url(images/hero.jpg) right center/cover no-repeat;padding:96px 0}.qs .quote{text-align:left;margin:0;max-width:430px}
+@media(max-width:960px){.qs{background-image:none;padding:56px 0}.qs .quote{text-align:center;margin:0 auto}}
+@media(max-width:960px){.hg{grid-template-columns:1fr;text-align:center}.lead{margin-left:auto;margin-right:auto}.cta,.note{justify-content:center}
+.grid3,.pg{grid-template-columns:1fr 1fr}.tabs{grid-template-columns:1fr 1fr}.links a:not(.btn){display:none}.art{order:-1}.art img{width:min(380px,90%)}}
+@media(max-width:620px){body{font-size:16px}.wrap{padding:0 18px}.nav{height:64px}.brand img{height:38px}.brand span{font-size:25px}
+.hero{padding:30px 0 46px}section{padding:56px 0}.grid3,.pg,.steps,.tabs{grid-template-columns:1fr}.btn.s{padding:9px 16px;font-size:14px}.free{padding:32px 20px}.cta .btn{width:100%;text-align:center}}
+@media(max-width:420px){.brand{gap:8px}.brand img{height:30px}.brand span{font-size:20px}.btn.s{padding:7px 12px;font-size:13px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav">
+<a class="brand" href="#top" aria-label="Luxe Years Co. home"><img src="assets/luxe-calendar-mark.png" alt="" width="78" height="46"><span class="script">Luxe Years Co</span></a>
+<div class="links"><a href="#pack">The pack</a><a href="#tabs">Colour tabs</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a>
+<a class="btn s" href="#sample">Free sample</a></div>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap hg">
+<div>
+<span class="eyebrow">Large-print activities for aged care</span>
+<h1 class="script">The Aussie lifestyle month, done for you</h1>
+<p class="lead">A beautifully organised, large-print activity pack for aged-care homes. Everything your lifestyle team needs for the month, ready to print, ready to run.</p>
+<div class="cta"><a class="btn" href="#sample">Get your free December sample</a><a class="btn o" href="#how">How it works</a></div>
+<p class="note"><i></i>Free December for up to 3 homes</p>
+</div>
+<div class="art"><span class="d" style="width:34px;height:34px;background:var(--yellow);top:8%;left:6%"></span><span class="d" style="width:22px;height:22px;background:var(--pink);bottom:10%;left:12%"></span><span class="d" style="width:26px;height:26px;background:var(--mint);top:16%;right:4%"></span>
+<img src="assets/luxe-years-co-logo.png" alt="Luxe Years Co logo: a bright calendar with a teacup, puzzle piece, music note, paintbrush and flower" width="839" height="600" fetchpriority="high"></div>
+</div></header>
+
+<div class="strip"><div class="wrap">
+<span><b style="background:var(--purple)"></b>Mind</span><span><b style="background:var(--orange)"></b>Memories</span><span><b style="background:var(--mint)"></b>Move &amp; Make</span><span><b style="background:var(--pink)"></b>Culture &amp; Community</span><span><b style="background:var(--sky)"></b>Evidence &amp; Family</span>
+</div></div>
+
+<section id="pack"><div class="wrap">
+<div class="sh"><h2 class="script">What's in your monthly pack</h2><p>All in large, easy-to-read print, designed to be uncluttered and easy to navigate.</p></div>
+<div class="grid3"><div class="card"><div class="ic" style="background:var(--t-purple)"><svg viewBox="0 0 24 24"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg></div><h3>A clear index</h3><p>Find any activity in seconds.</p></div><div class="card"><div class="ic" style="background:var(--t-yellow)"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div><h3>Your Week plan</h3><p>A ready-made weekly rhythm, so every day has something to look forward to.</p></div><div class="card"><div class="ic" style="background:var(--t-mint)"><svg viewBox="0 0 24 24"><path d="M3 7h6l2 3h10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg></div><h3>Five colour-coded tabs</h3><p>Mind, Memories, Move &amp; Make, Culture &amp; Community, and Evidence &amp; Family.</p></div><div class="card"><div class="ic" style="background:var(--t-orange)"><svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></svg></div><h3>Three levels for every resident</h3><p>Each activity is marked with a simple icon so you can choose the right fit, including for residents living with dementia.</p></div><div class="card"><div class="ic" style="background:var(--t-pink)"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4h6v3H9zM9 12h6M9 16h4"/></svg></div><h3>Record sheets</h3><p>Quick, tick-and-go pages that keep your activity records tidy.</p></div><div class="card"><div class="ic" style="background:var(--t-sky)"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h3>TV slides</h3><p>Big-screen versions for group sessions, ready to play.</p></div></div></div></section>
+
+<section class="soft" id="tabs"><div class="wrap">
+<div class="sh"><h2 class="script">Five colour tabs</h2><p>Each tab has its own colour, so it is easy to find your way around.</p></div>
+<div class="tabs">
+<div class="tab" style="background:var(--t-purple);border-color:var(--purple)"><img class="ti" src="images/scene-mind.jpg" alt="" loading="lazy" width="1152" height="864"><h3>Mind</h3><p>Puzzles, quizzes and word games.</p></div>
+<div class="tab" style="background:var(--t-orange);border-color:var(--orange)"><img class="ti" src="images/scene-memories.jpg" alt="" loading="lazy" width="1152" height="864"><h3>Memories</h3><p>Reminiscing prompts and conversation starters.</p></div>
+<div class="tab" style="background:var(--t-mint);border-color:var(--mint)"><img class="ti" src="images/scene-movemake.jpg" alt="" loading="lazy" width="1152" height="864"><h3>Move &amp; Make</h3><p>Gentle movement and simple creative activities.</p></div>
+<div class="tab" style="background:var(--t-pink);border-color:var(--pink)"><img class="ti" src="images/scene-community.jpg" alt="" loading="lazy" width="1152" height="864"><h3>Culture &amp; Community</h3><p>Aussie celebrations, trivia and group activities.</p></div>
+<div class="tab" style="background:var(--t-sky);border-color:var(--sky)"><img class="ti" src="images/scene-community.jpg" alt="" loading="lazy" width="1152" height="864" style="transform:scaleX(-1)"><h3>Evidence &amp; Family</h3><p>Record sheets and simple updates to share with families.</p></div>
+</div></div></section>
+
+<section id="how"><div class="wrap">
+<div class="sh"><h2 class="script">How it works</h2><p>Simple from the first hello.</p></div>
+<div class="steps">
+<div class="step"><div class="num">1</div><h3>Request your free sample</h3><p>Have a look at the layout.</p></div>
+<div class="step"><div class="num">2</div><h3>Enjoy a free December</h3><p>For up to 3 homes. No payment needed to start.</p></div>
+<div class="step"><div class="num">3</div><h3>Keep going from January 2027</h3><p>A fresh pack arrives each month, and you can pause or stop whenever you like.</p></div>
+</div></div></section>
+
+<section class="soft" id="pricing"><div class="wrap">
+<div class="sh"><h2 class="script">Simple pricing</h2><p>From January 2027. Prices are in Australian dollars, and invoices are sent by email.</p></div>
+<div class="pg">
+<div class="price f"><span class="tag">Single home</span><h3>Yearly</h3><div class="amt">A$129<small> /year</small></div><p>Per home, yearly.</p></div>
+<div class="price"><h3>Groups</h3><div class="amt">A$99<small> /home /year</small></div><p>Per home, yearly, for 2 or more homes in the same group.</p></div>
+</div>
+<div class="free"><h2 class="script">Free December for up to 3 homes</h2><p>No payment needed to start. Try the pack with your team before January.</p><a class="btn" href="#sample">Get your free December sample</a></div>
+</div></section>
+
+<section class="soft" id="sample"><div class="wrap"><div class="sh"><h2 class="script">Get your free December sample</h2><p>Tell us a little about your home and we will email your sample.</p><p style="margin-top:14px"><a class="btn" href="downloads/luxe-years-co-free-sample-week.pdf" download>Download the free sample week (PDF)</a></p></div>
+<form class="frm" id="sf" onsubmit="return go(event)">
+<label>Name<input name="n" required autocomplete="name"></label>
+<label>Home name<input name="h" required></label>
+<label>Work email<input name="e" type="email" required autocomplete="email"></label>
+<label>Number of homes<input name="c" type="number" min="1" value="1" required></label>
+<p class="help">Please don't include resident details.</p>
+<button class="btn" type="submit">Send my request</button>
+<p class="ok" id="ok" hidden>Almost there! Your email app has opened with your request. Just press send, and your free December sample is on its way. Have a wonderful day!</p>
+</form></div></section>
+<section class="qs"><div class="wrap"><div class="quote"><h2 class="script">Made in Melbourne, with care</h2><p>Luxe Years Co is an Australian business based in Melbourne. We create beautiful, practical activity packs and we love hearing from activity teams.</p></div></div></section>
+
+<section class="soft" id="faq"><div class="wrap">
+<div class="sh"><h2 class="script">Questions</h2></div>
+<div class="faq"><details><summary>Who is it for?</summary><p>Activity coordinators, lifestyle teams and managers in aged-care homes who want a month of activities planned without the weekly scramble.</p></details><details><summary>Can I try it first?</summary><p>Yes. Request the free December sample and you'll receive it by email.</p></details><details><summary>What do I need to run it?</summary><p>A printer, or a TV or screen for the slides. The packs are ready to print or play.</p></details><details><summary>Is it suitable for residents living with dementia?</summary><p>Activities are marked with three levels and simple icons, so you can pick what suits each resident. Your team knows your residents best, so the pack is a tool to support your own judgement.</p></details><details><summary>How do I pay?</summary><p>We email a yearly invoice: A$129 per home, or A$99 per home for 2 or more homes in the same group.</p></details><details><summary>Can I stop any time?</summary><p>Yes. Just let us know by email.</p></details><details><summary>Do you need any resident information?</summary><p>No. We never ask for resident names or details, and please don't send any through the sample form.</p></details><details><summary>Who is behind it?</summary><p>Luxe Years Co, an Australian business based in Melbourne. We create beautiful, practical activity packs and we love hearing from activity teams.</p></details></div></div></section>
+
+<div class="bar"><i style="background:var(--purple)"></i><i style="background:var(--mint)"></i><i style="background:var(--orange)"></i><i style="background:var(--yellow)"></i><i style="background:var(--pink)"></i><i style="background:var(--sky)"></i></div>
+<footer><div class="wrap fg">
+<div><div class="script">Luxe Years Co</div><p style="margin-top:8px">Made in Melbourne</p></div>
+<div><p><a href="mailto:hello@luxeyearsco.com">hello@luxeyearsco.com</a></p><p>ABN 35 885 771 401</p><p style="margin-top:10px">Have a wonderful day!</p></div>
+</div></footer>
+<script>function go(e){e.preventDefault();var f=e.target,v=function(k){return f.elements[k].value};
+var b="Name: "+v("n")+"\nHome name: "+v("h")+"\nWork email: "+v("e")+"\nNumber of homes: "+v("c")+"\n\nPlease send my free December sample.";
+location.href="mailto:hello@luxeyearsco.com?subject="+encodeURIComponent("Free December sample request")+"&body="+encodeURIComponent(b);
+document.getElementById("ok").hidden=false;return false}</script>
+</body></html>
