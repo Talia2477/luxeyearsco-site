@@ -80,9 +80,15 @@ section{padding:84px 0}.soft{background:var(--soft)}
 .free .btn{background:var(--ink);border-color:var(--ink)}
 .quote{text-align:center;max-width:760px;margin:0 auto}
 .quote .script{font-size:clamp(30px,3.6vw,42px);margin-bottom:14px}
-.partner{background:var(--t-purple);text-align:center;padding:32px 24px;border-top:1px solid var(--line);border-bottom:3px solid var(--purple)}
+.partner{background:var(--t-purple);padding:28px 24px;border-top:1px solid var(--line);border-bottom:3px solid var(--purple)}
+.partner-row{display:grid;grid-template-columns:1fr minmax(280px,480px);gap:32px;align-items:center}
+.partner-copy{text-align:left}
 .partner-label{font-size:16px;font-weight:600;color:var(--purple-d);margin-bottom:8px}
-.partner-name{font-family:Satisfy,"Brush Script MT",cursive;font-weight:400;font-size:clamp(40px,5.2vw,64px);line-height:1.15;color:var(--ink)}
+.partner-name{font-family:Satisfy,"Brush Script MT",cursive;font-weight:400;font-size:clamp(36px,4.6vw,58px);line-height:1.15;color:var(--ink)}
+.partner-photo{margin:0}
+.partner-photo img{width:100%;height:auto;border-radius:18px;display:block}
+.partner-photo figcaption{font-size:13px;color:var(--body);margin-top:8px}
+@media(max-width:960px){.partner-row{grid-template-columns:1fr;gap:18px}.partner-photo{order:-1}.partner-copy{text-align:center}.partner-photo figcaption{text-align:center}}
 /* faq */
 .faq{max-width:780px;margin:0 auto}
 details{border:1px solid var(--line);border-radius:18px;padding:20px 24px;margin-bottom:12px;background:#fff}
@@ -127,9 +133,15 @@ footer .script{color:#fff;font-size:34px}footer a{color:#fff}
 <img src="assets/luxe-years-co-logo.png" alt="Luxe Years Co logo: a bright calendar with a teacup, puzzle piece, music note, paintbrush and flower" width="839" height="600" fetchpriority="high"></div>
 </div></header>
 
-<div class="partner"><div class="wrap">
+<div class="partner"><div class="wrap partner-row">
+<div class="partner-copy">
 <p class="partner-label">Proud to be working with</p>
 <p class="partner-name">Estia Health Healesville</p>
+</div>
+<figure class="partner-photo">
+<img src="assets/estia-healesville-exterior.jpg" alt="Estia Health Healesville street front" width="1016" height="512">
+<figcaption>Photo: Estia Health</figcaption>
+</figure>
 </div></div>
 
 <div class="strip"><div class="wrap">
